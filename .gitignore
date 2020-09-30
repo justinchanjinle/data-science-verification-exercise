@@ -1,0 +1,13 @@
+# Copyright 2018 QxBranch Inc.
+ 
+# RELEASABILITY: This software is PROPRIETARY to QxBranch Inc. and is released under LICENSE
+# AGREEMENT or NON-DISCLOSURE AGREEMENT. See the terms of your AGREEMENT with QxBranch Inc. for
+# conditions of use and disclosure. QxBranch Inc. has NOT publicly published this work.
+
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/
+*.pyc
+venv/
+.cache/
+.pytest_cache/
+figures/
