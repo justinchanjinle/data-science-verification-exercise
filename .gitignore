@@ -10,3 +10,4 @@
 venv/
 .cache/
 .pytest_cache/
+figures/

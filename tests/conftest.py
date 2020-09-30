@@ -25,7 +25,7 @@ def input_data(raw_data_nan: pd.DataFrame) -> pd.DataFrame:
 
 
 @pytest.fixture(scope='module')
-def raw_data_row_count(raw_data: pd.DataFrame) -> pd.DataFrame:
+def raw_data_row_count(raw_data: pd.DataFrame) -> int:
     """Fixture for row count of the raw data"""
     return raw_data.shape[0]
 

@@ -53,7 +53,7 @@ class Models(Enum):
 class Directories(Enum):
 
     ZIP_FILE_DIR = join_dir(get_parent_dir(get_parent_dir(get_abs_dir(__file__))), 'data',
-                                FileNames.ZIP_FILE.value)
+                            FileNames.ZIP_FILE.value)
 
     ROC_CURVE_DIR = join_dir(get_parent_dir(get_parent_dir(get_abs_dir(__file__))), FolderNames.FIGURES.value,
                              FileNames.ROC_CURVE.value)
@@ -61,4 +61,4 @@ class Directories(Enum):
 
 class Checksum(Enum):
 
-    ROC_CURVE_MD5 = 'a9998f16430124f002f8d538ebef0e9a'
+    ROC_CURVE_MD5 = '90b2ea1c8014212fa1aedef2795a9537'
